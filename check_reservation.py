@@ -7,11 +7,10 @@ from bs4 import BeautifulSoup
 
 WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
 TARGET_DATE = "20260206"
-MIN_AVAILABLE = 1
+MIN_AVAILABLE = 2
 
 COURSES = {
     "성판악": 242,
-    "관음사": 244,
 }
 
 
